@@ -1,0 +1,8 @@
+a:hover {
+  text-decoration: underline;
+  background-color: indigo;
+}
+a.active {
+  text-decoration: underline;
+  background-color: seagreen;
+}
