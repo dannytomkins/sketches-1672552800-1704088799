@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.401ea164.css",
-    "main.js": "/static/js/main.4df3e093.js",
+    "main.css": "/static/css/main.eacca067.css",
+    "main.js": "/static/js/main.a240af88.js",
     "static/js/787.33c55194.chunk.js": "/static/js/787.33c55194.chunk.js",
     "static/media/25-A-layer-3.png": "/static/media/25-A-layer-3.45509ffe8c01542ac899.png",
     "static/media/25-A-layer-1.jpg": "/static/media/25-A-layer-1.615c7c51ed68c9cfb4d7.jpg",
@@ -26,12 +26,12 @@
     "static/media/running-rabbit-animate-400w.gif": "/static/media/running-rabbit-animate-400w.5d42d9ac194265325d2e.gif",
     "static/media/vessel-6.png": "/static/media/vessel-6.ea2c64dffe5c2de45da2.png",
     "index.html": "/index.html",
-    "main.401ea164.css.map": "/static/css/main.401ea164.css.map",
-    "main.4df3e093.js.map": "/static/js/main.4df3e093.js.map",
+    "main.eacca067.css.map": "/static/css/main.eacca067.css.map",
+    "main.a240af88.js.map": "/static/js/main.a240af88.js.map",
     "787.33c55194.chunk.js.map": "/static/js/787.33c55194.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.401ea164.css",
-    "static/js/main.4df3e093.js"
+    "static/css/main.eacca067.css",
+    "static/js/main.a240af88.js"
   ]
 }
