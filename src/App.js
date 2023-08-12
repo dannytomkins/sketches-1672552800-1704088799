@@ -10,8 +10,8 @@ function App() {
           <div className='container'>
           <SketchesNav />
           <Routes>
-            <Route path='/' element={<SketchPage />} />
-            <Route path='/:id' element={<SketchPage />} />
+            <Route path='' element={<SketchPage />} />
+            <Route path=':id' element={<SketchPage />} />
           </Routes>
           </div>
         </Router>
