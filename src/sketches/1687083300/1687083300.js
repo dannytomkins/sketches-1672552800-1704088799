@@ -77,13 +77,14 @@ export const Sketch = () => {
 
     p.mouseReleased = () => {
       isDragging = false; // Stop tracking mouse dragging
-      oscillator.amp(0); // Set the amplitude to stop the tone
-    };
-
-    p.mouseReleased = () => {
-      isDragging = false; // Stop tracking mouse dragging
       if (oscillator) {
         oscillator.amp(0); // Set the amplitude to stop the tone
+      }
+    };
+
+    p.mouseDragged = () => {
+      if (isDragging) {
+        updateOscillator();
       }
     };
 
