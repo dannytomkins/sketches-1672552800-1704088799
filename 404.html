@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Not Found</title>
-  <script type="module">
-    const path = window.location.pathname.replace(/\/$/, '');
-    const withoutLeadingSlash = path.startsWith('/') ? path.substring(1) : path;
-    window.history.replaceState({}, '404', `/${withoutLeadingSlash}`);
-  </script>
+  <title>404 Page Not Found</title>
 </head>
 <body>
-  <script type="module" src="/index.js"></script>
+  <div id="root"></div>
+  <script src="/path-to-your-main-js-bundle.js"></script>
 </body>
 </html>
