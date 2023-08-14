@@ -1,5 +1,4 @@
 /* global p5 */
-//@TODO sound no longer changes while clicked down and dragged
 
 import React from 'react';
 import 'p5';
@@ -84,7 +83,21 @@ export const Sketch = () => {
 
     p.mouseDragged = () => {
       if (isDragging) {
-        updateOscillator();
+        const rectX = 72;
+        const rectY = 864;
+        const rectWidth = 935;
+        const rectHeight = 144;
+
+        // Check if the cursor is still within the rectangle
+        if (
+          p.mouseX >= rectX && p.mouseX <= rectX + rectWidth &&
+          p.mouseY >= rectY && p.mouseY <= rectY + rectHeight
+        ) {
+          updateOscillator();
+        } else {
+          isDragging = false;
+          oscillator.amp(0);
+        }
       }
     };
 
