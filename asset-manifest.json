@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.eacca067.css",
-    "main.js": "/static/js/main.6f3810de.js",
+    "main.css": "/static/css/main.564de0f1.css",
+    "main.js": "/static/js/main.1bdacf2f.js",
     "static/js/787.33c55194.chunk.js": "/static/js/787.33c55194.chunk.js",
     "static/media/25-A-layer-3.png": "/static/media/25-A-layer-3.45509ffe8c01542ac899.png",
     "static/media/25-A-layer-1.jpg": "/static/media/25-A-layer-1.615c7c51ed68c9cfb4d7.jpg",
+    "static/media/41-C-background.jpg": "/static/media/41-C-background.7b1d251bff0db0d15774.jpg",
     "static/media/15-B-foreground.png": "/static/media/15-B-foreground.1d51868407a972f65a5f.png",
     "static/media/28-C-background.jpg": "/static/media/28-C-background.7c00526bd2ffcd15d618.jpg",
     "static/media/24-B-background.jpg": "/static/media/24-B-background.3845828c86b74ed7ec8c.jpg",
@@ -26,12 +27,12 @@
     "static/media/running-rabbit-animate-400w.gif": "/static/media/running-rabbit-animate-400w.5d42d9ac194265325d2e.gif",
     "static/media/vessel-6.png": "/static/media/vessel-6.ea2c64dffe5c2de45da2.png",
     "index.html": "/index.html",
-    "main.eacca067.css.map": "/static/css/main.eacca067.css.map",
-    "main.6f3810de.js.map": "/static/js/main.6f3810de.js.map",
+    "main.564de0f1.css.map": "/static/css/main.564de0f1.css.map",
+    "main.1bdacf2f.js.map": "/static/js/main.1bdacf2f.js.map",
     "787.33c55194.chunk.js.map": "/static/js/787.33c55194.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eacca067.css",
-    "static/js/main.6f3810de.js"
+    "static/css/main.564de0f1.css",
+    "static/js/main.1bdacf2f.js"
   ]
 }
