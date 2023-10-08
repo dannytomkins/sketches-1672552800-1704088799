@@ -6,7 +6,7 @@ import './SketchesNav.css';
 const SketchesNav = () => {
 
   return (
-    <nav>
+    <nav className='side-nav'>
       <ul>
         {sketchData.map(sketch => (
           <li key={sketch.id}>

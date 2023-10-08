@@ -1,8 +1,58 @@
-a:hover {
-  text-decoration: underline;
-  background-color: indigo;
+/* Styling for the side nav bar */
+.side-nav {
+  background-color: #282c34; /* Dark background color */
+  color: #abb2bf; /* Text color */
+  width: 150px; /* Adjust the width as needed */
+  height: 100%; /* Cover the full height of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
-a.active {
-  text-decoration: underline;
-  background-color: seagreen;
+
+/* Style for nav items */
+.side-nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #abb2bf;
+  transition: background-color 0.3s ease;
+}
+
+.side-nav a:hover {
+  background-color: #3e4451; /* Darker background on hover */
+}
+
+/* Active item style */
+.side-nav .active {
+  background-color: #4e5b6e; /* Active item background color */
+  color: #ffffff; /* Active item text color */
+}
+
+/* Separator style (optional) */
+.side-nav .separator {
+  border-top: 1px solid #4e5b6e;
+  margin: 10px 0;
+}
+
+/* Scrollbar style (optional) */
+.side-nav::-webkit-scrollbar {
+  width: 8px;
+}
+
+.side-nav::-webkit-scrollbar-thumb {
+  background-color: #4e5b6e;
+}
+
+/* Close button style (optional) */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #abb2bf;
+  font-size: 20px;
+}
+
+/* Darken background when the side nav is open (optional) */
+.side-nav.open {
+  background-color: rgba(0, 0, 0, 0.8); /* You can adjust the opacity */
 }
