@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.564de0f1.css",
-    "main.js": "/static/js/main.1bdacf2f.js",
+    "main.js": "/static/js/main.b00d745c.js",
     "static/js/787.33c55194.chunk.js": "/static/js/787.33c55194.chunk.js",
     "static/media/25-A-layer-3.png": "/static/media/25-A-layer-3.45509ffe8c01542ac899.png",
     "static/media/25-A-layer-1.jpg": "/static/media/25-A-layer-1.615c7c51ed68c9cfb4d7.jpg",
@@ -12,6 +12,7 @@
     "static/media/arrangement-3.png": "/static/media/arrangement-3.9fe1956a52c1ec16dea7.png",
     "static/media/19-C-background.jpg": "/static/media/19-C-background.ffefa101ba8135d463fa.jpg",
     "static/media/arrangement-1.png": "/static/media/arrangement-1.03cbe9f39672ee523238.png",
+    "static/media/42-C-background.jpg": "/static/media/42-C-background.3868b815f11ad8a7dede.jpg",
     "static/media/arrangement-2.png": "/static/media/arrangement-2.1b84ff4dc8edee9c1d24.png",
     "static/media/arrangement-5.png": "/static/media/arrangement-5.01f1b2941ac595f4fac6.png",
     "static/media/15-B-background.jpg": "/static/media/15-B-background.afef3dc670f0cc191887.jpg",
@@ -28,11 +29,11 @@
     "static/media/vessel-6.png": "/static/media/vessel-6.ea2c64dffe5c2de45da2.png",
     "index.html": "/index.html",
     "main.564de0f1.css.map": "/static/css/main.564de0f1.css.map",
-    "main.1bdacf2f.js.map": "/static/js/main.1bdacf2f.js.map",
+    "main.b00d745c.js.map": "/static/js/main.b00d745c.js.map",
     "787.33c55194.chunk.js.map": "/static/js/787.33c55194.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.564de0f1.css",
-    "static/js/main.1bdacf2f.js"
+    "static/js/main.b00d745c.js"
   ]
 }
