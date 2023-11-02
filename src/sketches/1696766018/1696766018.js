@@ -34,9 +34,9 @@ export const Sketch = () => {
       x2 = p.lerp(x2, noiseX2, 0.05); // Smoothly interpolate x2 position
       y2 = p.lerp(y2, noiseY2, 0.05); // Smoothly interpolate y2 position
 
-      p.blendMode(p.BLEND);
+      p.blendMode(p.ADD);
       p.background(bgImage); // Clear the canvas
-      p.blendMode(p.DIFFERENCE);
+      p.blendMode(p.ADD);
 
       // Calculate the gradient colors for the first ellipse
       const xRadius1 = 100; // Adjust the size of the first ellipse
