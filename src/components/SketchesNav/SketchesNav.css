@@ -11,7 +11,9 @@
 /* Style for nav items */
 .side-nav a {
   display: block;
-  padding: 15px;
+  height: 30px;
+  text-align: center;
+  padding: 30px;
   text-decoration: none;
   color: #abb2bf;
   transition: background-color 0.3s ease;
