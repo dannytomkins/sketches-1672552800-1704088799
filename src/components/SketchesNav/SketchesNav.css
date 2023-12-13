@@ -2,7 +2,7 @@
 .side-nav {
   background-color: #282c34; /* Dark background color */
   color: #abb2bf; /* Text color */
-  width: 150px; /* Adjust the width as needed */
+  min-width: 200px; /* Adjust the minimum width as needed */
   height: 100%; /* Cover the full height of the viewport */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
@@ -11,9 +11,12 @@
 /* Style for nav items */
 .side-nav a {
   display: block;
-  height: 30px;
+  font-size: 30px;
+  line-height:90px; /* Adjust the line height as needed */
+  font-family: monospace;
+  /* height: 30px; */
   text-align: center;
-  padding: 30px;
+  /* padding: 30px; */
   text-decoration: none;
   color: #abb2bf;
   transition: background-color 0.3s ease;
@@ -30,10 +33,10 @@
 }
 
 /* Separator style (optional) */
-.side-nav .separator {
+/* .side-nav .separator {
   border-top: 1px solid #4e5b6e;
   margin: 10px 0;
-}
+} */
 
 /* Scrollbar style (optional) */
 .side-nav::-webkit-scrollbar {

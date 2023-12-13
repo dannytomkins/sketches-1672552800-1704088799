@@ -96,8 +96,11 @@ export const Sketch = () => {
   };
 
   return (
-    <div>
+    <div className='s-container'>
+      <div className='left-section'>
       <P5Wrapper sketch={sketch} />
+      </div>
+      <div className="right-section">
       <div>
         R:
         <input type="text" value={R} onChange={handleRChange} />
@@ -109,6 +112,7 @@ export const Sketch = () => {
       <div>
         d:
         <input type="text" value={d} onChange={handledChange} />
+      </div>
       </div>
     </div>    
   );

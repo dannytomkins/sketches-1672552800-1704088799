@@ -36,3 +36,17 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+.s-container {
+  display: flex;
+}
+
+.left-section {
+  flex: 1; /* Take up all available space */
+}
+
+.right-section {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px; /* Add some spacing if desired */
+  font-family: monospace;
+}

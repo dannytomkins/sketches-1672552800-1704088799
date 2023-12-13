@@ -67,20 +67,25 @@ export const Sketch = () => {
   }, [latitude, longitude, date]);
 
   return (
-    <div>
-      <P5Wrapper sketch={sketch} />
-      <div>
-        Latitude:
-        <input type="text" value={latitude} onChange={handleLatitudeChange} />
+    <div className="s-container">
+      <div className="left-section">
+        <P5Wrapper sketch={sketch} />
       </div>
-      <div>
-        Longitude:
-        <input type="text" value={longitude} onChange={handleLongitudeChange} />
-      </div>
-      <div>
-        Date:
-        <input type="text" value={date} onChange={handleDateChange} />
+      <div className="right-section">
+        <div>
+        {"Latitude:\u00A0"}
+          <input type="text" value={latitude} onChange={handleLatitudeChange} />
+        </div>
+        <div>
+          Longitude:
+          <input type="text" value={longitude} onChange={handleLongitudeChange} />
+        </div>
+        <div>
+        {"Date: \u00A0 \u00A0 "}
+          <input type="text" value={date} onChange={handleDateChange} />
+        </div>
       </div>
     </div>
   );
+  
 };
